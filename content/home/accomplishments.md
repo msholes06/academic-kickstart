@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Certificates"
 subtitle = ""
 
 # Date format
@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   organization_url = "https://www.datacamp.com"
   title = "Introduction to the Tidyverse"
   url = ""
-  certificate_url = ""
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/10d39e4ef3e0ac6592ad6283e470bdba01818c64"
   date_start = "2019-01-10"
   date_end = "2019-01-29"
   description = ""
