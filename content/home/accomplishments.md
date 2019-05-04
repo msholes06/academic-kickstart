@@ -25,8 +25,8 @@ date_format = "Jan 2006"
   url = ""
   certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/10d39e4ef3e0ac6592ad6283e470bdba01818c64"
   date_start = ""
-  date_end = ""
-  description = "2019-01-29"
+  date_end = "2019-01-29"
+  description = ""
 
 [[item]]
   organization = "edX"
