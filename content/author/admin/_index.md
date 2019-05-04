@@ -24,8 +24,8 @@ email = "msholes06@gmail.com"
 # List (academic) interests or hobbies
 interests = [
   "Artificial Intelligence",
-  "Computational Linguistics",
-  "Information Retrieval"
+  "Data Mining",
+  "Data Visualization"
 ]
 
 # Organizational groups that you belong to (for People widget)
@@ -35,18 +35,9 @@ user_groups = ["Researchers", "Visitors"]
 # List qualifications (such as academic degrees)
 [[education.courses]]
   course = "B.S. in Biological Sciences"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "BS in Biological Sciences"
   institution = "Virginia Tech"
   year = 2013
 
-[[education.courses]]
-  course = "Comptia A+"
-  institution = "IT Ready"
-  year = 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -82,6 +73,6 @@ user_groups = ["Researchers", "Visitors"]
 
 +++
 
-I am currently a graduate student in Health Informatics and Analytics at University of North Carolina Charlotte. I am a lifetime learner and Data Science novice. I enjoy the outdoor with my wife and goldendoodle Bruno. I am an entreprenuer by heart and love to build and invent the future.
+I am currently a graduate student in Health Informatics and Analytics at the University of North Carolina Charlotte. I am a lifetime learner and Data Science novice. I enjoy the outdoors with my wife and goldendoodle Bruno. I am an entreprenuer by heart and enjoy re-inventing the wheel.
 
  
