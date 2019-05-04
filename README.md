@@ -1,6 +1,6 @@
 
 
-***Academic Kickstart*** Using the Academic Kickstart Template I created my first website using Rmarkdown. Content includes About Me, Skills, Experience, Certifications, Resume, and Blog Posts. Website is deployed on netlify [Website](https://michaelsholes.netlify.com/).
+*****Using the Hugo-Academic theme created my first website using Rmarkdown. Content includes About Me, Skills, Experience, Certifications, Resume, and Blog Posts. Deployed on Netlify. [Website](https://michaelsholes.netlify.com/).*****
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
 
