@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Accomplishments"
 subtitle = ""
 
 # Date format
@@ -19,24 +19,24 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "DataCamp"
+  organization_url = "https://www.datacamp.com"
+  title = "Introduction to the Tidyverse"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
+  certificate_url = "https://www.datacamp.org"
+  date_start = ""
+  date_end = "2019-01-29"
   description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
+  organization = "DataCamp"
+  organization_url = "https://www.datacamp.com"
+  title = "Exploratory Data Analysis in R: Case Study"
   url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/87196c3dc5a4943dcd1e1aa61939717a18c1aa32"
+  date_start = ""
+  date_end = "2019-02-20"
+  description = ""
   
 [[item]]
   organization = "DataCamp"
