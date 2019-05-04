@@ -41,11 +41,20 @@ date_format = "Jan 2006"
 [[item]]
   organization = "DataCamp"
   organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
+  title = "Building Web Applications in R with Shiny"
   url = ""
   certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  date_start = "2019-03-12"
+  date_end = ""
   description = ""
 
+[[item]]
+  organization = "DataCamp"
+  organization_url = "https://www.datacamp.com"
+  title = "Building Web Applications in R with Shiny: Case Studies"
+  url = ""
+  certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/f7a12ad406f5a7e63308b4837aa6cee4aeb4a179"
+  date_start = "2019-04-16"
+  date_end = ""
+  description = ""
 +++
