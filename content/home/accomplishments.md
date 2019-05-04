@@ -24,8 +24,8 @@ date_format = "Jan 2006"
   title = "Introduction to the Tidyverse"
   url = ""
   certificate_url = "https://www.datacamp.com/statement-of-accomplishment/course/10d39e4ef3e0ac6592ad6283e470bdba01818c64"
-  date_start = "2019-01-10"
-  date_end = "2019-01-29"
+  date_start = "Jan 2019"
+  date_end = ""
   description = ""
 
 [[item]]
