@@ -1,6 +1,6 @@
-# [Academic Kickstart](https://sourcethemes.com/academic/)
 
-**Bootstraping Academinc** Using Academic I am creating my first website with an About Me Page, Certifications, Resume, and Blog Posts.
+
+***Academic Kickstart*** Using the Academic Kickstart Template I created my first website using Rmarkdown. Content includes About Me, Skills, Experience, Certifications, Resume, and Blog Posts. Website is deployed on netlify [Website](https://michaelsholes.netlify.com/).
 
 **Academic** makes it easy to create a beautiful website for free using Markdown, Jupyter, or RStudio. Customize anything on your site with widgets, themes, and language packs. [Check out the latest demo](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the showcase](https://sourcethemes.com/academic/#expo).
 
@@ -11,13 +11,7 @@
 - [Ask a question](http://discuss.gohugo.io/)
 - [Request a feature or report a bug](https://github.com/gcushen/hugo-academic/issues)
 - Updating? View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-# - Support development of Academic:
-#   - [Donate a coffee](https://paypal.me/cushen)
-#   - [Become a backer on Patreon](https://www.patreon.com/cushen)
-#   - [Decorate your laptop or journal with an Academic sticker](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-#   - [Wear the T-shirt](https://academic.threadless.com/)
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
 
 ## Install
 
