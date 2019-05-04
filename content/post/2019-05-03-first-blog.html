@@ -1,0 +1,32 @@
+---
+title: Building A Website with Hugo Trial by Fire
+author: ''
+date: '2019-05-03'
+slug: first-blog
+categories: []
+tags: []
+image:
+  caption: 
+  focal_point: ''
+---
+
+
+
+<p>For my first website using Hugo and markdown I decided to go with the Academic-Kick Start and utilizing Git Desktop to push my source code to Netlify. I ran into some errors along the way. First, I followed the recommended workflow step by step and was unable to install the academic-kick start theme. I was given Error: Unable to find theme Directory: C:_blog. So after doing some further research into the documentation I decided to just clone the academic-kick start git into my local git desktop. This worked fine, however more errors persisted once I tried to add a new post under addins. The issue:</p>
+<p>blogdown:::new_post_addin() Error in blogdown:::site_root() : Could not find config.toml / config.yaml under C:/Users/Mike/Documents/Visual Analytics/HW_4/academic-kickstart C:/Users/Mike/Documents/Visual Analytics/HW_4 C:/Users/Mike/Documents/Visual Analytics C:/Users/Mike/Documents C:/Users/Mike C:/Users C:/</p>
+<p>After doing some further research I found that the config.toml was not located under the root directory, however was broken up under a new file called content. It seems that others had the same issue:</p>
+<p>Hi <span class="citation">@yihui</span>,</p>
+<p>Someone else alerted me to a refactoring of Hugo exampleSites, as with the hugo-academic theme. I reproduced the issue with Hugo version 0.53 using gcushen/hugo-academic theme.</p>
+<p>Here is the author’s commit that changed the structure.</p>
+<p>And here is the new exampleSite: <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite" class="uri">https://github.com/gcushen/hugo-academic/tree/master/exampleSite</a></p>
+<p>The most significant change is that multiple .toml files now exist (languages, params, and menus are pulled out separately), instead of one config.toml file.</p>
+<p>For reference, here was the old exampleSite config.toml file: <a href="https://github.com/rbind/apreshill/blob/master/themes/hugo-academic/exampleSite/config.toml" class="uri">https://github.com/rbind/apreshill/blob/master/themes/hugo-academic/exampleSite/config.toml</a></p>
+<p>Here is the beginning of the OLD main menus:</p>
+<p>Navigation Links To link a homepage widget, specify the URL as a hash <code>#</code> followed by the filename of the desired widget in your <code>content/home/</code> folder. The weight parameter defines the order that the links will appear in. [params.menus] # Align the main menu to the right of the page? (true/false) align_right = true</p>
+<p>[[menu.main]] name = “Home” url = “#about” weight = 1</p>
+<p>In the new exampleSite menu.toml this same section looks like this:</p>
+<p>Navigation Links To link a homepage widget, specify the URL as a hash <code>#</code> followed by the filename of the desired widget in your <code>content/home/</code> folder. The weight parameter defines the order that the links will appear in.</p>
+<p>[[main]] name = “Home” url = “#about” weight = 1</p>
+<p>However, no naive quick fixes worked me (I tried created a master config.toml file by pasting the multiples into one and updating the names of the params, I also tried using the old example config file and just pasting that in). Not sure if you have seen this recently with any other themes, but it seemed like a pretty drastic restructuring so wanted to make sure you are aware of it.</p>
+<p>To fix this I ended up moving the config.toml file to the root directory and bingo I was able to add a new post through the Blogdown addins button. All of this took a lot of time which I was running out of as I am writting the rest of the blog. If you have read this far into my blog please put something other than ‘good work’ in comment section of canvas. Also, I spent a lot of time on the about me page making it fully functional with responsive icons and updating my information. I am not sure if the certificates from my data camp courses will load once clicked on due to being routed to the certificate url. If they do render and you are still reading this far into my blog please put ‘certs rendered’ in the canvas grading comment section. I was thinking about adding the .pdf files of this into the static files and seeing if this would work. I also added a map using the map api from Openstreet Map in the contact section. Also, instead of using the serve_site() fuction to see my edits, I would make a push to github everytime so now I believe I have something over 100 commits. Oh Well. I told you this post would be trial and fire. Its time to serve() this biotch and see what happens.</p>
+<p>Michael</p>
